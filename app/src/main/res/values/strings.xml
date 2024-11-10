@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">UniTempo</string>
+    <string name="close">Fechar</string>
+    <string name="about_title">Sobre</string>
+    <string name="settings_title">Configurações</string>
+    <string name="dark_mode">Ativar Modo Escuro</string>
+    <string name="weather_icon_description">Descrição do ícone do tempo</string>
+    <string name="map_icon_description">Descrição do ícone do mapa</string>
+    <string name="weather_icon">Descrição do ícone do tempo</string>
+
+</resources>

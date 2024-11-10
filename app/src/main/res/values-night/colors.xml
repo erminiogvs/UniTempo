@@ -1,0 +1,19 @@
+<resources>
+    <color name="colorPrimary">#0043a8</color>
+    <color name="colorPrimaryDark">#0043a8</color>
+    <color name="colorAccent">#FFFFFFFF</color>
+    <color name="textobotao">#FF000000</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue">#0065ff</color>
+    <color name="darkblue">#0043a8</color>
+    <color name="darkblue1">#030a13</color>
+    <color name="popupbackground">#acacac</color>
+    <color name="background">#111c2b</color>
+    <color name="popupTextColor">#ffffff</color>
+    <color name="switchThumbColor">#B0B0B0</color>
+    <color name="switchTrackColor">#D3D3D3</color>
+    <color name="closeButtonBackground">#D3D3D3</color>
+    <color name="textcolor">#ffffff</color>
+    <color name="fundorounded">#030a13</color>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#f2f2f2"/> <!-- Cor cinza clara -->
+    <corners android:radius="25dp"/> <!-- Bordas arredondadas -->
+    <elevation android:value="4dp"/> <!-- Sombra sutil -->
+</shape>

@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/changeCityNotice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Para mudar a cidade, leia o QR code"
+        android:textSize="18sp"
+        android:textColor="@color/textcolor"
+        android:paddingBottom="8dp"
+        android:gravity="right"
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/qrCodeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_qr_code"
+        android:contentDescription="Ler QR code"
+        android:layout_gravity="center_horizontal"
+        android:tint="@color/black"
+        android:backgroundTint="@color/white"/>
+
+    <TextView
+        android:id="@+id/cityTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cidade"
+        android:textSize="18sp"
+        android:paddingTop="8dp"
+        android:textColor="@color/textcolor"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/tempTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Temperatura"
+        android:textSize="16sp"
+        android:paddingTop="8dp"
+        android:textColor="@color/textcolor"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/descriptionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descrição do tempo"
+        android:textSize="16sp"
+        android:paddingTop="8dp"
+        android:textColor="@color/textcolor"
+        android:gravity="center" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/forecastRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
